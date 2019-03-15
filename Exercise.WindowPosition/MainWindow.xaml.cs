@@ -23,6 +23,7 @@ namespace Exercise.WindowPosition
         public MainWindow()
         {
             InitializeComponent();
+            DataContext = new MainViewModel();
         }
     }
 }
